@@ -30,7 +30,7 @@ export function SessionProvider({ children }) {
           try {
             // Llamada al endpoint /auth con axios sin interceptores
             const res = await axios.post(
-              "https://7217-2806-10be-8-111a-746b-54-d6a4-5af.ngrok-free.app/auth",
+              "https://8bc1-2806-10be-8-111a-48d-9c66-daf-6f08.ngrok-free.app/auth",
               {
                 username,
                 password,

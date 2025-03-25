@@ -14,7 +14,7 @@ const getToken = async () => {
 
 const api = axios.create({
   // Cambia por la URL de tu servidor (por ej. la de ngrok)
-  baseURL: "https://7217-2806-10be-8-111a-746b-54-d6a4-5af.ngrok-free.app",
+  baseURL: "https://8bc1-2806-10be-8-111a-48d-9c66-daf-6f08.ngrok-free.app",
   timeout: 10000,
 });
 
